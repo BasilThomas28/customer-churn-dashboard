@@ -47,7 +47,7 @@ Built by [Basil Thomas](https://www.linkedin.com/in/basil-thomas-0408on28/), a D
 3. If you edit `Clean_Data`, use **Data → Refresh All** to update the pivots.
 
 ## Data source & caveats
-- **Data:** [Customer Churn Dataset](https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset) by Muhammad Shahid Azeem on Kaggle (file `customer_churn_dataset-testing-master.csv`, 64,374 rows), licensed under [GPL-2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html). I verified that every original value is unchanged in `Clean_Data`. My only changes were renaming 3 column headers to show units and adding 6 derived band columns.
+- **Data:** [Customer Churn Dataset](https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset) by Muhammad Shahid Azeem on Kaggle (file `customer_churn_dataset-testing-master.csv`, 64,374 rows), licensed under GPL-2.0 (full text in [`LICENSE-DATA.txt`](LICENSE-DATA.txt); the data in `Clean_Data` is shared under the same license). I verified that every original value is unchanged in `Clean_Data`. My only changes were renaming 3 column headers to show units and adding 6 derived band columns.
 - The 47.4% churn rate is far above typical real-world rates, and the values are evenly spread, which suggests a synthetic or sampled dataset. Treat the findings as a demonstration of the analysis method.
 - The results are associations, not proven causes; test any action on a pilot group first.
 - Units aren't stated in the source: tenure is assumed to be months, payment delay and last interaction to be days, and spend has no currency.
